@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="javaWeb_servlet_thymeleaf:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/javaWeb_servlet_thymeleaf_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="javaWeb_servlet_thymeleaf/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="javaWeb_servlet_thymeleaf" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="mysql-connector-j-8.1.0" />
+          <element id="library" level="project" name="druid-1.2.16" />
+          <element id="library" level="project" name="thymeleaf" />
+          <element id="library" level="project" name="lib_thymeleafffff" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

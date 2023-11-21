@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- 登录表单 LoginPart.html -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      h1 {
+        text-align: center;
+      }
+      form {
+        width: 300px;
+        margin: 0 auto;
+      }
+      table {
+        width: 100%;
+        border: 1px solid #000000;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>账户登录</h1>
+    <div>
+<!--      表单代码-->
+      <form action="LoginRequest" target="_parent" method="post">
+        <table>
+          <tr>
+            <td><label for="userNameLabel">账号:</label></td>
+            <td><input type="text" name="userName"/></td>
+          </tr>
+          <tr>
+            <td><label userPasswordLabel">密码:</label></td>
+            <td><input type="password" name="userPassword"/></td>
+          </tr>
+
+          <tr>
+            <td>
+              <label
+              >记住密码
+                <input
+                        type="checkbox"
+                        name="isPasswordSave"
+                        value="isPasswordSave"
+                /></label>
+            </td>
+            <td>
+              <label> </label>
+            </td>
+          </tr>
+
+          <tr>
+            <td><input type="submit" value="提交"/></td>
+            <td><input type="reset" value="重新输入"/></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

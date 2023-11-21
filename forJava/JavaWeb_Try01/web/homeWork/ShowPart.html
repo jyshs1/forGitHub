@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- 综合展示 ShowPart.html -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShowPart</title></title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./images/中南民大logo.jpg"
+    />
+    <!-- 背景图 -->
+    <style type="text/css">
+      body {
+        background: url("./images/back.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+ 
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+ 
+        .container{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- 顶部 -->
+    <div>
+      <iframe
+        name="TopPart"
+        style="width: 100%; height: 10%"
+        frameborder="0px"
+        scrolling="no"
+        src="./TopPart.html"
+      ></iframe>
+    </div>
+    <!-- 登录表单 -->
+    <div class="container">
+      <iframe
+        name="LoginPart"
+        style="width: 100%; height: 100%"
+        frameborder="0px"
+        scrolling="auto"
+        src="./LoginPart.html"
+      ></iframe>
+    </div>
+    <!-- 友情链接 -->
+    <div >
+      <iframe src="./BottomPart.html" frameborder="0"> </iframe>
+    </div>
+  </body>
+</html>
+
+<script>
+  var h = window.innerHeight + 'px';
+
+</script>

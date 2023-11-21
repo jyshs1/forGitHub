@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb_servlet_Test01/JavaWeb_servlet_Test01.iml" filepath="$PROJECT_DIR$/JavaWeb_servlet_Test01/JavaWeb_servlet_Test01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudyWeb_01.iml" filepath="$PROJECT_DIR$/StudyWeb_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaWeb_servlet_thymeleaf/javaWeb_servlet_thymeleaf.iml" filepath="$PROJECT_DIR$/javaWeb_servlet_thymeleaf/javaWeb_servlet_thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb_servlet/javaweb_servlet.iml" filepath="$PROJECT_DIR$/javaweb_servlet/javaweb_servlet.iml" />
+    </modules>
+  </component>
+</project>
